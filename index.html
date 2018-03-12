@@ -33,7 +33,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- navigation -->
 <div class="navbar-wrapper">
     <div class="container">
-		<nav class="navbar navbar-inverse navbar-static-top cl-effect-1">
+		<nav class="navbar navbar-inverse navbar-fixed-top cl-effect-1">
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -409,6 +409,22 @@ $(window).scroll(function() {
 </script>
 <!-- /js for sliding animations -->
 <!-- /js files -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
 </body>
 
 <!-- Mirrored from p.w3layouts.com/demos/june-2016/13-06-2016/academy/web/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 11 Mar 2018 05:02:44 GMT -->

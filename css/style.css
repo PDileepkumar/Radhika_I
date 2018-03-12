@@ -59,14 +59,15 @@ body {
 }
 /*-- navigation --*/ 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #fff;
+    color: #000080;
     background-color:transparent;
 }
 .navbar {
 	margin-bottom:0;
 }
 .navbar-inverse .navbar-nav>li>a {
-	color:#fff;
+	color:#000080;
+	font-weight: bold;
 	font-size:20px;
 }
 .navbar>.container .navbar-header a.navbar-brand h1{
@@ -1353,6 +1354,31 @@ section.our-team h3.text-center {
 	font-size:23px;
 }
 }
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 20px;
+	right: 2%;
+	overflow: hidden;
+	z-index: 999; 
+	width: 40px;
+	height: 40px;
+	border: none;
+	text-indent: 100%;
+	background: url(../images/arrow.png) no-repeat 0px 0px;
+}
+#toTopHover {
+	width: 40px;
+	height: 40px;
+	display: block;
+	overflow: hidden;
+	float: right;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+}
+/*-- //to-top --*/
 
 
 
