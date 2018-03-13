@@ -59,21 +59,21 @@ body {
 }
 /*-- navigation --*/ 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #000080;
+    color: #FF1493;
     background-color:transparent;
 }
 .navbar {
 	margin-bottom:0;
 }
 .navbar-inverse .navbar-nav>li>a {
-	color:#000080;
-	font-weight: bold;
+	color:#FF1493;
+	font-weight: 1000;
 	font-size:20px;
 }
 .navbar>.container .navbar-header a.navbar-brand h1{
 	font-size: 35px;
     font-family: 'Nunito', sans-serif;
-    color: red;
+    color: #FF0000;
     font-weight: bold;
 }
 ul.nav.navbar-nav.navbar-right {
@@ -132,6 +132,7 @@ ul.nav.navbar-nav.navbar-right {
 
 .cl-effect-1 li a::before {
 	margin-right: 10px;
+	color: #FF1493;
 	content: '[';
 	-webkit-transform: translateX(20px);
 	-moz-transform: translateX(20px);
@@ -139,6 +140,7 @@ ul.nav.navbar-nav.navbar-right {
 }
 
 .cl-effect-1 li a::after {
+	color: #FF1493;
 	margin-left: 10px;
 	content: ']';
 	-webkit-transform: translateX(-20px);
@@ -1013,7 +1015,6 @@ section.contact-us .contact-info {
 	padding-top:20px;
 }
 }
-
 @media (max-width: 900px) {
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
     margin-left: -50px;
@@ -1377,6 +1378,83 @@ section.our-team h3.text-center {
 	opacity: 0;
 	-moz-opacity: 0;
 	filter: alpha(opacity=0);
+}
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.title-icon{
+	text-align: center;
+}
+.title-icon img{
+	opacity: 0.3;
+}
+.sec-title h2{
+	text-align: center;
+	color: #000080;
+	font-weight: bold;
+	margin-top: -80px;
+	font-size: 44px;
+}
+.image img{
+	width: 250px;
+	border-radius: 10px;
+}
+.content-column .inner h3{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+
+}
+.content-column .inner .text{
+	color: #000;
+	text-align: justify-all;
+	line-height: 2;
+	text-align: center;
+}
+a:hover, a:focus, a:visited {
+    text-decoration: none;
+    outline: none;
+}
+
+.btn-style-one {
+    position: relative;
+    padding: 12px 40px;
+    line-height: 24px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 6px 0 6px 0;
+    background: #ffca00;
+    border: 2px solid #ffca00;
+    text-transform: uppercase;
+    font-family: 'Roboto',sans-serif;
+}
+.theme-btn {
+    display: inline-block;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #20acea;
+}
+.news-style-two .inner-box .content-column .inner {
+    position: relative;
+    padding: 35px 15px;
+    text-align: center;
+}
+.news-style-two{
+	padding-top: 20px;
+}
+#gap{
+	margin-top: 28px;
 }
 /*-- //to-top --*/
 
